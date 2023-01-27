@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: White;
+}
+body{
+    background-color: black;
+}
+.nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.logo{
+    height: 60px;
+    cursor: pointer;
+}
+ul{ 
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 38%;
+}
+li{
+    display: inline;
+}
+#contactus{
+    margin-left: 28%;
+    background-color: #FF00ED90;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+#contactus:hover{
+    background-color: #FF00ED;
+}
+#contactus a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    color:white;
+    font-size: 36px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+i:hover{
+    color:#FF00ED;
+}
+.image_principale{
+    background-image: url('images/Arcade\ Gamer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3%;
+}
+.neon:hover{
+    color: #fff; /*set your neon color */
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+  }
+  progress {
+    width: 40%;
+    height: 20px;
+    background-color: #ddd;
+}
+progress::-webkit-progress-value {
+    background-color: mediumslateblue;
+}
+progress::-webkit-progress-bar {
+    background-color: white;
+}
+h1{
+    padding-top: 30%;
+    font-size: 70px;
+}
+p{
+    color: mediumslateblue;
+}
+.central{
+    display:flex;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#telebtn{
+    margin-left: 2%;
+}
+.services_img{
+    font-size:25px;
+    display:flex;
+    justify-content: center;
+    color: mediumslateblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ftr{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#copyright{
+    color: #fff;
+    font-size:14px;
+    font-style: italic;
+    margin-top:10px
+}
+.div1{
+    width:30%;  
+
+}
+.div2{
+    width:13%;
+}
+.fontfooter{
+    margin-top: 7%;
+    font-size: 14px;
+}
